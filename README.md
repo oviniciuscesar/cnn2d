@@ -6,32 +6,55 @@ The project aims to provide a lightweight, configurable neural network architect
 ✅ Full autoencoder CNN implementation in plain C — no external libraries used.
 
 🧩 Dynamically creates array-based matrices for each layer:
+
 ``input``, ``kernels``, ``convolution``, ``pooling``, etc.
+
 🧠 Kernel initialization using ``He`` or ``Xavier`` methods.
+
 🎯 Bias values are initialized with small random values close to zero.
 
+
 ⚙️ Supports optimization using:
+
 ``SGD``.
+
 ``Adam``.
 
+
 🔧 Configurable components:
+
 ``Activation function``.
+
 ``Loss function``.
+
 ``Pooling method``.
 
+
 📐 Automatically calculates matrix dimensions based on:
+
 ``Number of layers``.
+
 ``Input size``.
+
 ``Kernel size``.
+
 ``Padding``.
+
 ``Pooling``.
+
 ``Stride``.
 
+
 🚀 The model supports:
+
 ``Training``.
+
 ``Evaluation``.
+
 ``Input reconstruction``.
+
 ``Latent space visualization``.
+
 📉 Displays reconstruction error during training.
 
 
