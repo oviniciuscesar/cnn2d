@@ -64,7 +64,7 @@ The project aims to integrate machine learning algorithms into the `Pure Data` e
 
 # Build
 > [!NOTE]
-`cnn2d` uses `pd.build`. To build the external on Linux, Mac, and Windows (using Mingw64):
+`cnn2d` uses [pd.cmake](https://github.com/pure-data/pd.cmake). To build the external on Linux, Mac, and Windows (using Mingw64):
 
 1. `git clone https://github.com/oviniciuscesar/cnn2d/ --recursive`;
 2. `cd cnn2d`;
