@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/viniciuscesar/Desktop/objetos_c-M2/CNN",
+      "program": "/Users/viniciuscesar/Desktop/objetos_c-M2/CNN/build/Debug/outDebug"
+    }
+  ]
+}
