@@ -3,36 +3,36 @@ This repository contains a vanilla implementation of a `convolutional autoencode
 The project aims to provide a lightweight, configurable neural network architecture (with no external machine learning dependencies), designed for creative and real-time audio applications.
 
 # Key Features
-✅ Full autoencoder CNN implementation in plain C — no external libraries used
+✅ Full autoencoder CNN implementation in plain C — no external libraries used.
 
 🧩 Dynamically creates array-based matrices for each layer:
 ``input``, ``kernels``, ``convolution``, ``pooling``, etc.
-🧠 Kernel initialization using ``He`` or ``Xavier`` methods
-🎯 Bias values are initialized with small random values close to zero
+🧠 Kernel initialization using ``He`` or ``Xavier`` methods.
+🎯 Bias values are initialized with small random values close to zero.
 
 ⚙️ Supports optimization using:
-``SGD``
-``Adam``
+``SGD``.
+``Adam``.
 
 🔧 Configurable components:
-``Activation function``
-``Loss function``
-``Pooling method``
+``Activation function``.
+``Loss function``.
+``Pooling method``.
 
 📐 Automatically calculates matrix dimensions based on:
-``Number of layers``
-``Input size``
-``Kernel size``
-``Padding``
-``Pooling``
-``Stride``
+``Number of layers``.
+``Input size``.
+``Kernel size``.
+``Padding``.
+``Pooling``.
+``Stride``.
 
 🚀 The model supports:
-``Training``
-``Evaluation``
-``Input reconstruction``
-``Latent space visualization``
-📉 Displays reconstruction error during training
+``Training``.
+``Evaluation``.
+``Input reconstruction``.
+``Latent space visualization``.
+📉 Displays reconstruction error during training.
 
 
 
