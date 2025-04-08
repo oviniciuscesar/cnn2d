@@ -1,5 +1,5 @@
 # cnn2d
-This repository contains a vanilla implementation of a `convolutional autoencoder neural network` written in C, developed as an external object for the `Pure Data`.
+A work-in-progress vanilla implementation of a `convolutional autoencoder neural network` written in C, developed as an external object for the `Pure Data`.
 The project aims to provide a lightweight, configurable neural network architecture (with no external machine learning dependencies), designed for creative and real-time audio applications.
 
 # Key Features
