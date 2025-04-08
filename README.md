@@ -1,46 +1,40 @@
 # cnn2d
-This repository contains a vanilla implementation of a convolutional autoencoder neural network written in C, developed as an external object for the Pure Data (Pd) environment.
+This repository contains a vanilla implementation of a `convolutional autoencoder neural network` written in C, developed as an external object for the `Pure Data`.
+The project aims to provide a lightweight, configurable neural network architecture (with no external machine learning dependencies), designed for creative and real-time audio applications.
 
-The project aims to provide a lightweight, configurable neural network architecture designed for creative and real-time applications with no external machine learning dependencies.
+# Key Features
+✅ Full autoencoder CNN implementation in plain C — no external libraries used
 
-✨ Key Features
-Full autoencoder CNN implementation in plain C, without relying on external libraries;
+🧩 Dynamically creates array-based matrices for each layer:
+``input``, ``kernels``, ``convolution``, ``pooling``, etc.
+🧠 Kernel initialization using ``He`` or ``Xavier`` methods
+🎯 Bias values are initialized with small random values close to zero
 
-Dynamic creation of array-based matrices for each layer of the network:
+⚙️ Supports optimization using:
+``SGD``
+``Adam``
 
-Input, kernels, convolution, pooling, and others;
+🔧 Configurable components:
+``Activation function``
+``Loss function``
+``Pooling method``
 
-Kernels are initialized using He or Xavier initialization methods;
+📐 Automatically calculates matrix dimensions based on:
+``Number of layers``
+``Input size``
+``Kernel size``
+``Padding``
+``Pooling``
+``Stride``
 
-Biases are initialized with small random values near zero;
+🚀 The model supports:
+``Training``
+``Evaluation``
+``Input reconstruction``
+``Latent space visualization``
+📉 Displays reconstruction error during training
 
-Supports optimization using SGD or Adam;
 
-Selectable components:
-
-Activation function;
-
-Loss function;
-
-Pooling method;
-
-Automatic calculation of matrix dimensions based on:
-
-Number of layers, input size, kernel size, padding, pooling, and stride;
-
-All matrices and helper vectors are dynamically allocated and freed as needed;
-
-Vector arrays that store layer parameters include:
-
-input_padded, convolv_matriz_size, pooling_matriz_size, kernels_size, pooling_size, stride_conv, stride_pool;
-
-The model supports:
-
-Training, evaluation, input reconstruction, and latent space display;
-
-Error computation and display during training;
-
-Tested with synthetic data, demonstrating learning and input reconstruction capabilities.
 
 
 # Build
