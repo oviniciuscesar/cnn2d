@@ -1,4 +1,4 @@
-# cnn2d
+# Cnn2d
 A work-in-progress vanilla implementation of a `convolutional autoencoder neural network` written in C, developed as an external object for the `Pure Data`.
 
 The project aims to integrate machine learning algorithms into the `Pure Data` environment and to provide a configurable neural network architecture (with no external machine learning dependencies) designed for technical studies and real-time composition applications.
